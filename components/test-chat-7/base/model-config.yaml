@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-chat-7-model-config
+data:
+  MODEL_ENDPOINT: "https://mistral-7b-instruct-v0-3-maas-apicast-production.apps.prod.rhoai.rh-aiservices-bu.com:443"
+  MODEL_NAME: "mistral-7b-instruct"
